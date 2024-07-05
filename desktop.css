@@ -1,0 +1,43 @@
+/* Media Query DESKTOP */
+@media screen and (min-width: 1280px) {
+
+    body {
+        padding: 80px;
+      }
+      main{
+        flex-direction: row;
+        width: 1,120px;
+        height: 672px;
+        padding: 40px;
+        gap: 40px;
+      }
+div {
+width: 700px;
+height: 336px;
+gap: 60px;
+}
+h1{
+    width: 700px;
+    height: 62px;
+    font-size: 48px;
+    line-height: 62.4px;
+ }
+ p{
+    font-size: 32px;
+    width: 700px;
+    height: 84px;
+    line-height: 41.6px;
+}
+
+p span {
+    font-size: 32px;
+    line-height: 41.6px;
+    font-weight: 600;
+ }
+
+ button {
+    width: 500px;
+    height: 70px;
+ }
+
+}
